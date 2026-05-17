@@ -70,3 +70,18 @@ ee.Authenticate()
 ee.Initialize(project="your-project-id")
 
 ⚠️ Note: Replace "your-project-id" with your own Google Earth Engine project ID.
+
+
+## 📈 Results
+
+### Study Area
+![Belagavi Region Map](results/belagavi_map.png)
+
+### Mean NDVI Profiles
+![Mean NDVI Profiles](results/mean_ndvi_profiles.png)
+
+### NDVI Range Statistics
+![NDVI Ranges](results/ndvi_ranges.png)
+
+For detailed outputs including temporal data reports and statistical tables, see the notebook:
+[Implementation_phase1_clean.ipynb](Implementation_phase1_clean.ipynb)
