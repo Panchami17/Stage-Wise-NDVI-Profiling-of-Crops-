@@ -53,3 +53,20 @@ The NDVI analysis pipeline is structured as follows:
 ---
 
 👩‍💻 *Developed during internship at NITK Surathkal as part of research on crop phenology and NDVI visualization.*
+
+---
+
+## 🚀 Setup Instructions
+To run this notebook, you need a Google Earth Engine account.
+
+1. Install required libraries:
+   ```bash
+   pip install earthengine-api geemap pandas
+2.Authenticate Earth Engine:
+import ee
+ee.Authenticate()
+
+3.Initialize with your own project ID:
+ee.Initialize(project="your-project-id")
+
+⚠️ Note: Replace "your-project-id" with your own Google Earth Engine project ID.
